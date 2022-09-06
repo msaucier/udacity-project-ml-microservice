@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/msaucier/udacity-project-ml-microservice/tree/circleci-integration.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msaucier/udacity-project-ml-microservice/tree/circleci-integration)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/msaucier/udacity-project-ml-microservice/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msaucier/udacity-project-ml-microservice/tree/main)
 
 ## Project Overview
 
