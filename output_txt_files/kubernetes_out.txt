@@ -1,0 +1,18 @@
+(.devops) ➜  project-ml-microservice-kubernetes git:(master) ✗ kubectl get pod
+NAME               READY   STATUS    RESTARTS      AGE
+model-prediction   1/1     Running   1 (81s ago)   4m8s
+(.devops) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "model-prediction" already exists
+NAME               READY   STATUS    RESTARTS      AGE
+model-prediction   1/1     Running   1 (88s ago)   4m15s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+➜  project-ml-microservice-kubernetes git:(master) ✗ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
